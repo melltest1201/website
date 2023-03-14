@@ -5,7 +5,7 @@ import PA from "./components/payments/PA";
 function App() {
   return (
     <Routes>
-      {/* Rutas aquí */}
+      {/* Rutas aquÃ­ */}
       <Route path="/components/payments/EC" element={<EC />} />
       <Route path="/components/payments/PA" element={<PA />} />
     </Routes>
