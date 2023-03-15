@@ -6,8 +6,8 @@ function App() {
   return (
     <Routes>
       {/* Rutas aqui­ */}
-      <Route path="components/payments/EC" element={<EC />} />
-      <Route path="components/payments/PA" element={<PA />} />
+      <Route path="/components/payments/Ec" element={<EC />} />
+      <Route path="/components/payments/PA" element={<PA />} />
     </Routes>
   );
 }
