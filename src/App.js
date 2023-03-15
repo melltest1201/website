@@ -1,6 +1,6 @@
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import EC from "./components/Ec";
-import PA from "./components/Pa";
+import EC from "./components/payments/Ec";
+import PA from "./components/payments/Pa";
 
 function App() {
   return (
