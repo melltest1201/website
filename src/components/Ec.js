@@ -1,24 +1,12 @@
 import React, { useState } from "react";
-import LogoBC from "../../img/logo-blanco.png";
-import Sistemaclave from "../../img/Sistema_clave.jpg";
-import PayCash from "../../img/PayCash.jpg";
-import Puntopago from "../../img/Punto_Pago.jpg";
-import Tarjetas from "../../img/Tarjetas.jpg";
-import Banktransfer from "../../img/Bank_transfer.jpg";
-import Retirotarjeta from "../../img/Pay_to_card.jpg";
+import LogoBC from "../img/logo-blanco.png";
+import PayCash from "../img/PayCash.jpg";
+import Puntopago from "../img/Punto_Pago.jpg";
+import Tarjetas from "../img/Tarjetas.jpg";
+import Banktransfer from "../img/Bank_transfer.jpg";
+import Retirotarjeta from "../img/Pay_to_card.jpg";
 
 const imagesDepositos = [
-  {
-    img: Sistemaclave,
-    title: "SISTEMA CLAVE",
-    url: "https://ayuda.betcris.pa/guia-de-usuario/sistema-clave/",
-    min: "$10.00",
-    max: "$5,000.00",
-    time: "Inmediato",
-    descriptionTitle: "Desde el Cajero de Betcris:",
-    description:
-      "Elige Depósito, haz clic en 'Sistema Clave', seguido haz clic en pagar como invitado, elige 'Sistema Clave' nuevamente, ingresa tu correo electrónico y número telefónico, haz clic en la opción de enviar pago, llena los datos para el registro de la tarjeta 'CLAVE', haz clic en 'Aceptar', proporciona el PIN de la tarjeta 'CLAVE' y por último haz clic en confirmar.",
-  },
   {
     img: PayCash,
     title: "PAYCASH",
@@ -79,7 +67,7 @@ const imagesRetiros = [
   },
 ];
 
-const PA = () => {
+const EC = () => {
   const [showDepositos, setShowDepositos] = useState(true);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -211,4 +199,4 @@ const PA = () => {
   );
 };
 
-export default PA;
+export default EC;

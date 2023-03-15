@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://melltest1201.github.io/website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

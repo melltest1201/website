@@ -1,16 +1,15 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import EC from "./components/payments/Ec";
-import PA from "./components/payments/Pa";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import EC from "./components/Ec";
+import PA from "./components/Pa";
 
 function App() {
   return (
-    <BrowserRouter basename="/website">
+    <Router>
       <Routes>
-        {/* Rutas aqui­ */}
-        <Route path="/components/payments/Ec" element={<EC />} />
-        <Route path="/components/payments/PA" element={<PA />} />
+        <Route path="/ec" element={<EC />} />
+        <Route path="/pa" element={<PA />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
