@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import EC from "./components/payments/EC";
-import PA from "./components/payments/PA";
+import EC from "./components/payments/Ec";
+import PA from "./components/payments/Pa";
 
 function App() {
   return (
     <Routes>
-      {/* Rutas aquÃ­ */}
-      <Route path="/components/payments/EC" element={<EC />} />
-      <Route path="/components/payments/PA" element={<PA />} />
+      {/* Rutas aqui­ */}
+      <Route path="components/payments/EC" element={<EC />} />
+      <Route path="components/payments/PA" element={<PA />} />
     </Routes>
   );
 }
