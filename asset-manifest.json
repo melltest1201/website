@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.78e63270.css",
-    "main.js": "/website/static/js/main.f4f8cf28.js",
+    "main.js": "/website/static/js/main.ab5206e6.js",
     "static/media/PayCash.jpg": "/website/static/media/PayCash.a6061cfbb183af98afed.jpg",
     "static/media/Punto_Pago.jpg": "/website/static/media/Punto_Pago.e73f25898204ad497b4f.jpg",
     "static/media/Pay_to_card.jpg": "/website/static/media/Pay_to_card.defcf50cf1c439b7b1c2.jpg",
@@ -10,10 +10,10 @@
     "static/media/Sistema_clave.jpg": "/website/static/media/Sistema_clave.e4fab673082929fc7966.jpg",
     "index.html": "/website/index.html",
     "main.78e63270.css.map": "/website/static/css/main.78e63270.css.map",
-    "main.f4f8cf28.js.map": "/website/static/js/main.f4f8cf28.js.map"
+    "main.ab5206e6.js.map": "/website/static/js/main.ab5206e6.js.map"
   },
   "entrypoints": [
     "static/css/main.78e63270.css",
-    "static/js/main.f4f8cf28.js"
+    "static/js/main.ab5206e6.js"
   ]
 }
